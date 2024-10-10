@@ -1,0 +1,20 @@
+.room-select-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.total {
+    font-size: 20px;
+}
+
+.category-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.category-wrap .age {
+    font-size: 14px;
+    color: #aaa;
+}

@@ -1,0 +1,27 @@
+.room-allocation {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 24px;
+    width: min(640px, 70vw);
+    border: 1px dashed gray;
+}
+
+.selection-group {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.selection-group>div:not(:first-child) {
+    border-top: 1px solid #aaa;
+    padding-top: 16px;
+}
+
+.not-allocated {
+    padding: 24px 18px;
+    background-color: rgba(124, 230, 230, 0.163);
+    border-radius: 6px;
+    border: 1px solid rgba(52, 178, 203, 0.578);
+    color: gray;
+}
