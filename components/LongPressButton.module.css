@@ -1,0 +1,10 @@
+.long-press-btn {
+    width: 48px;
+    height: 48px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.long-press-btn:disabled {
+    cursor: not-allowed;
+}

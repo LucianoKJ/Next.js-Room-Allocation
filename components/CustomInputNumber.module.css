@@ -1,0 +1,15 @@
+.wrap {
+    display: flex;
+    gap: 8px;
+}
+
+.custom-input {
+    font-size: 16px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+}
+
+.custom-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
